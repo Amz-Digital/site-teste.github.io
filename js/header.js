@@ -17,9 +17,9 @@ function alterarCor(cor)
 function teste2()
 {
   var cabecalho = document.getElementById("coisa");
-  console.log(cabecalho.classList.contains("sticky"));
+  // console.log(cabecalho.classList.contains("sticky"));
   aux = cabecalho.classList.contains("sticky");
-  console.log(aux);
+  // console.log(aux);
   // true = preto
   // false = nada
 
