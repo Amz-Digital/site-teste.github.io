@@ -1,5 +1,5 @@
 /* RESPONSIVO MOBILE */
-@media only screen and (max-width: 426px) and (max-height: 853px){
+@media only screen and (max-width: 413px) and (max-height: 916px){
     .globo{max-width: 50%; justify-content: center;}
     .wave{opacity: 0;}
     section#about h3, .titulo{font-size: 2.3rem !important; text-align: center !important;}
@@ -10,11 +10,48 @@
     .portfolio-grid{max-width: 100%;}
     .quadro5 .feature-box-18 {margin: 0px 50px 0px 50px; padding: 20px 0px 20px 0px;}
     .quadro5 .box-esq h3{text-align: center!important;}
+    .quadro5{padding-top: 70px !important;}
     .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
     .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
     .solucao p, li{font-size: 1.2rem !important;}
-    .aviso, .trabalho{margin: 0px !important;padding: 0px !important;}
-
+    .aviso, .trabalho{margin: -15px 0px 0px 0px !important;padding: 0px !important;}
+    .page-rights{padding: 35px !important;}
+    .page-rights h3{font-size: 1.5rem !important; letter-spacing: 0px; line-height: 25px;}
+    .page-rights a{font-size: 1.1rem;}
+    .aviso p {text-align: justify !important;}
+    .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
+    .foot-menu span{opacity: 0;}
+}
+/* RESPONSIVO MOBILE DEITADO */
+@media only screen and (max-width: 916px) and (max-height: 413px){
+    .globo{max-width: 50%; justify-content: center;}
+    .wave{opacity: 0;}
+    section#about h3, .titulo{font-size: 2.3rem !important; text-align: center !important;}
+    .quadro2 p, .quadro3 p{font-size: 1.1rem !important;}
+    .titulo{font-size:2.3rem !important}
+    .quadro3 .bg-white{padding:30px 35px 10px 35px !important; margin:0px 10px 0px 10px;}
+    .quadro3 .bg-white
+    .titulo2{font-size: 1.2rem!important; text-align: center !important;}
+    .titulo2 p{font-size: 1.2rem!important; text-align: center !important;}
+    .quadro4 h5{margin-top: 80px; font-size: 2.3rem;}
+    .portfolio-grid{max-width: 100%;}
+    .quadro5 .feature-box-18 {margin: 0px 50px 0px 50px; padding: 20px 0px 20px 0px;}
+    .quadro5 .box-esq h3{text-align: center!important;}
+    .quadro5{padding-top: 70px !important;}
+    .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
+    .solucao{padding-top: 0px !important;}
+    .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
+    .solucao p, li{font-size: 1.2rem !important;}
+    .quadro6 .cover-background{background-size: contain !important;}
+    .aviso, .trabalho{margin: -15px 0px 0px 0px !important;padding: 0px !important;}
+    .page-rights{padding: 35px !important;}
+    .page-rights h3{font-size: 1.5rem !important; letter-spacing: 0px; line-height: 25px;}
+    .page-rights a{font-size: 1.1rem;}
+    .aviso p {text-align: justify !important;}
+    .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
+    .foot-menu span{opacity: 0;}
+    .warning_footer{margin-top: 30px !important;}
+    #contact{margin-top: 1px !important;}
 }
 
 

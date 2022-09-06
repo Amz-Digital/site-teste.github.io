@@ -12,6 +12,7 @@ function alterarCor(cor)
   document.getElementById('letra5').style.color = cor;
   document.getElementById('letra6').style.color = cor;
   document.getElementById('letra7').style.color = cor;
+  document.getElementById('sanduiche').style.color = cor;
 }
 function teste2()
 {
