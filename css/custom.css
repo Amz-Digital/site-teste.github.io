@@ -217,7 +217,8 @@ font-weight: 300;
   font-weight: 500;
   margin: 0px;
 }
-.aviso p {
+.aviso, ul li {
+  list-style: none;
   text-align: center;
   color: #6F6F6F;
   font-size: 1.2rem;
