@@ -1,10 +1,15 @@
 body {
   background-color: #2b2b2b;
 }
-header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
-  color: #fff;
+.header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
+  color: rgb(121, 192, 0);
   font-size: 1rem;
 }
+.trocaCorHeader a{
+  color: rgb(255, 255, 255) !important;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800');
 
@@ -32,11 +37,7 @@ p {
 .fadeInRight li {
   font-size: 1.125rem;
 }
-#about .cover-background {
-  background-color: red;
-}
 section#about .cover-background {
-  background-color: red !important;
   padding-top: 0px;
 }
 /* quadro2 */
@@ -52,7 +53,7 @@ section#about h3 {
 .quadro2 p {
   text-align: justify;
   color: #E2E2E2;
-  font-size: 1.3rem !important;
+  font-size: 1.3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
@@ -189,14 +190,6 @@ font-weight: 300;
   font-weight: 300;
   text-align: start;
 }
-
-
-header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
-  color: rgb(121, 192, 0);
-  font-size: 1rem;
-}
-
-
 #icone1, #icone2, #icone3, #icone4, #msg1, #msg2, #msg3, #msg4, #msg5, #msg6, #msg7, #msg8 {
   transition: 0.01s;
 }
@@ -207,7 +200,7 @@ header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-lin
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-left:20px;
+  margin-left:0px;
 }
 /* ============================
 == TEXTO "ATENÇÃO" NO FOOTER ==
@@ -225,6 +218,7 @@ header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-lin
   margin: 0px;
 }
 .aviso p {
+  text-align: center;
   color: #6F6F6F;
   font-size: 1.2rem;
   margin: 0px;
@@ -234,7 +228,6 @@ footer {
   padding: 0 50px 0px 50px;
 }
 .trabalho {
-  padding: 0px 40px 0px 20px;
   width: auto !important;
   text-align: center;
   justify-content: center;
@@ -250,6 +243,7 @@ footer {
 .container-footer .fab {
   margin: 0px 10px 0px 10px;
 }
+footer{margin-top: 100px;}
 /* ------------------------- */
 .foot-menu a:hover {
   color: #a9caac;
@@ -268,4 +262,27 @@ footer {
 }
 .copy-right h5 {
   font-size: 1rem;
+}
+.page-rights{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(211, 211, 211);
+  text-align: justify;
+  padding: 0px 400px 0px 400px;
+}
+.page-rights p a, ul li a{
+  color: rgb(67, 139, 70);
+}
+.page-rights h3{
+  text-align: start;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.page-rights td, th {
+  font-size: 1rem;
+  color: rgb(211, 211, 211);
+  align-items: center !important;
+  justify-content: center;
+}
+.pages-rights ul li{
+  font-size: 1rem !important;
 }

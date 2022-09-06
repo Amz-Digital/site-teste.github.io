@@ -1,3 +1,23 @@
+/* RESPONSIVO MOBILE */
+@media only screen and (max-width: 426px) and (max-height: 853px){
+    .globo{max-width: 50%; justify-content: center;}
+    .wave{opacity: 0;}
+    section#about h3, .titulo{font-size: 2.3rem !important; text-align: center !important;}
+    .quadro2 p, .quadro3 p{font-size: 1.2rem !important}
+    .titulo{font-size:2.3rem !important}
+    .quadro3 .bg-white{padding:30px 15px 10px 15px !important; margin:0px 40px 0px 40px;}
+    .quadro4 h5{margin-top: 80px; font-size: 2.3rem;}
+    .portfolio-grid{max-width: 100%;}
+    .quadro5 .feature-box-18 {margin: 0px 50px 0px 50px; padding: 20px 0px 20px 0px;}
+    .quadro5 .box-esq h3{text-align: center!important;}
+    .subcrm{font-size: 1.2rem !important; line-height: 30px !important; margin: 20px;}
+    .solucao h4{font-size: 2.3rem !important; text-align: center !important;}
+    .solucao p, li{font-size: 1.2rem !important;}
+    .aviso, .trabalho{margin: 0px !important;padding: 0px !important;}
+
+}
+
+
 @media (min-width: 992px) {
     .feature-box-14 > div:nth-child(even) { border-bottom: 0}
     .feature-box-14 > div:nth-child(odd) { border-bottom: 0}
@@ -68,6 +88,10 @@
 }
 
 @media (max-width: 1199px) {
+    .text-small {
+        line-height: 50px !important;
+    }
+
     .panel-group * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -ms-transition-timing-function: none; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
     section {padding: 90px 0}
 
@@ -1504,15 +1528,18 @@
 }
 
 @media (max-width: 991px) {
+    .box-esq ul li{
+        text-align: start;
+    }
 
     /* typography */
     h1, h2, h3, h4, h5, h6 {margin:0 0 18px; padding:0; letter-spacing: 0; font-weight: 400;}
-    h1 {font-size:57px; line-height: 58px;}
+    /* h1 {font-size:57px; line-height: 58px;}
     h2 {font-size:43px; line-height:48px}
     h3 {font-size:36px; line-height:41px}
     h4 {font-size:30px; line-height:35px}
     h5 {font-size:24px; line-height:30px}
-    h6 {font-size:22px; line-height:26px}
+    h6 {font-size:22px; line-height:26px} */
     p { margin: 0 0 20px; }
 
     .title-large {font-size: 70px; line-height:65px}
@@ -3129,12 +3156,14 @@
     body { font-size: 12px; line-height: 20px}
 
     h1, h2, h3, h4, h5, h6 {margin:0 0 17px; padding:0; letter-spacing: 0; font-weight: 400;}
-    h1 {font-size:37px; line-height: 42px;}
+    /* h1 {font-size:37px; line-height: 42px;}
     h2 {font-size:30px; line-height:36px}
     h3 {font-size:28px; line-height:34px}
     h4 {font-size:24px; line-height:30px}
     h5 {font-size:20px; line-height:28px}
-    h6 {font-size:18px; line-height:23px}
+    h6 {font-size:18px; line-height:23px} */
+
+    .text-small {line-height: 40px;}
 
     /* opacity */
     .sm-opacity1 {opacity:.1}
