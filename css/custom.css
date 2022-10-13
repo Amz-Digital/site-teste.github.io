@@ -3,11 +3,12 @@ body {
 }
 .header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a, header nav.navbar.white-link .header-social-icon a, nav.navbar.bootsnav.white-link .header-social-icon a, header nav.navbar.white-link .header-searchbar a, nav.navbar.bootsnav.white-link .header-searchbar a, header nav.navbar.bootsnav ul.nav.white-link > li > a, nav.navbar.white-link .heder-menu-button a {
   color: rgb(121, 192, 0);
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .trocaCorHeader a{
   color: rgb(255, 255, 255) !important;
 }
+.slider-text-middle h6{font-size: 2rem}
 
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,100&display=swap');
@@ -217,13 +218,17 @@ font-weight: 300;
   font-weight: 500;
   margin: 0px;
 }
-.aviso, ul li {
+.aviso {
   list-style: none;
   text-align: center;
   color: #6F6F6F;
   font-size: 1.2rem;
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+.aviso ul li{
+  list-style: none;
 }
 footer {
   padding: 0 50px 0px 50px;
@@ -286,4 +291,41 @@ footer{margin-top: 100px;}
 }
 .pages-rights ul li{
   font-size: 1rem !important;
+}
+.imagem-central{
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 50px 0px;
+}
+.imagem-central img{
+  width: 400px;
+  height: auto;
+}
+.page-rights a{
+  margin: 0px;
+  font-size: 1.125rem;
+  color: #fff !important;
+}
+.page-rights ul {
+  font-size: 1.125rem;
+  margin:50px 0px 50px 0px;
+}
+.page-rights ul li{
+  font-size: 1.125rem;
+  margin:5px;
+}
+.page-logo {
+  display: inline;
+  justify-content: center;
+  width: 400px;
+  height: auto;
+}
+.botao {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.botao a{
+  margin: 30px;
+  display: inline !important;
 }

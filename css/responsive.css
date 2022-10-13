@@ -19,6 +19,7 @@
     .page-rights h3{font-size: 1.5rem !important; letter-spacing: 0px; line-height: 25px;}
     .page-rights a{font-size: 1.1rem;}
     .aviso p {text-align: justify !important;}
+    .aviso ul{list-style: none; padding: 0px;}
     .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
     .foot-menu span{opacity: 0;}
 }
@@ -48,6 +49,7 @@
     .page-rights h3{font-size: 1.5rem !important; letter-spacing: 0px; line-height: 25px;}
     .page-rights a{font-size: 1.1rem;}
     .aviso p {text-align: justify !important;}
+    .aviso ul{list-style: none; padding: 0px;}
     .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
     .foot-menu span{opacity: 0;}
     .warning_footer{margin-top: 30px !important;}
