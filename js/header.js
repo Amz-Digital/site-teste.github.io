@@ -27,15 +27,15 @@ function teste2()
   if (aux)
   {
     //fala q é preto
-    // console.log("preto");
-    alterarImagem('logoo', 'images/logos/logo_amazonia_green.png');
+    console.log("preto");
+    alterarImagem('logoo', '/images/logos/logo_amazonia_green.png');
     alterarCor("rgb(121, 192, 0)");
   }
   else
   {
     //fala que é nada
-    // console.log("nada");
-    alterarImagem('logoo', 'images/logos/logo_amazonia_white.png');
+    console.log("nada");
+    alterarImagem('logoo', '/images/logos/logo_amazonia_white.png');
     alterarCor("white");
   }
 }
