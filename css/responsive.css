@@ -1,5 +1,5 @@
 /* RESPONSIVO MOBILE */
-@media only screen and (max-width: 413px) and (max-height: 916px){
+@media only screen and (max-width: 415px) and (max-height: 916px){
     .globo{max-width: 50%; justify-content: center;}
     .wave{opacity: 0;}
     section#about h3, .titulo{font-size: 2.3rem !important; text-align: center !important;}
@@ -22,9 +22,12 @@
     .aviso ul{list-style: none; padding: 0px;}
     .foot-menu{display: flex;flex-wrap: wrap;justify-content: center;}
     .foot-menu span{opacity: 0;}
+    #btn-lang-open{margin-left: -100px !important;}
+    #lang-icon{width:25px !important; height: auto; margin-top: 0px !important;}
+    .navbar-toggler .icon-bar{color: red !important;}
 }
 /* RESPONSIVO MOBILE DEITADO */
-@media only screen and (max-width: 916px) and (max-height: 413px){
+@media only screen and (max-width: 916px) and (max-height: 415px){
     .globo{max-width: 50%; justify-content: center;}
     .wave{opacity: 0;}
     section#about h3, .titulo{font-size: 2.3rem !important; text-align: center !important;}
@@ -54,6 +57,8 @@
     .foot-menu span{opacity: 0;}
     .warning_footer{margin-top: 30px !important;}
     #contact{margin-top: 1px !important;}
+    #btn-lang-open{margin-left: -115px !important;}
+    #lang-icon{width:25px !important; height: auto; margin-top: 0px !important;}
 }
 
 

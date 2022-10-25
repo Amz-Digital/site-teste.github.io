@@ -2870,8 +2870,8 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .swiper-pagination-square .swiper-pagination-bullet {height:3px; width:30px; border-radius: 0}
 
 /* square pagination */
-.white-move .swiper-slide { cursor: url("../images/icon-move-light.png"), move; }
-.black-move .swiper-slide { cursor: url("../images/icon-move-black.png"), move;}
+/* .white-move .swiper-slide { cursor: url("../images/icon-move-light.png"), move; } */
+/* .black-move .swiper-slide { cursor: url("../images/icon-move-black.png"), move;} */
 
 /* number pagination */
 .swiper-number { left: auto !important; right: 0!important; width: 35px !important; text-align: right!important; top:38% !important; bottom: inherit !important; }
@@ -3932,7 +3932,7 @@ aside .latest-post li figure {width: 75px;}
 }
 
 .footer-logo {
-    max-height: 150px;
+    max-height: 70px;
 }
 
 header a.logo img {
